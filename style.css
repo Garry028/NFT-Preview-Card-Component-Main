@@ -29,6 +29,19 @@ body {
 
 #card-img {
   border-radius: 0.9rem;
+  overflow: hidden;
+}
+#card-img:hover {
+  opacity: 0.1;
+}
+#overlay-eye {
+  position: relative;
+  left: 198px;
+  top: -102px;
+}
+#overlay-eye:hover {
+ 
+
 }
 .text {
   color: hsl(215, 51%, 70%);
@@ -71,18 +84,16 @@ body {
   border-radius: 50%;
 }
 
-.creator
-{position: relative; 
-    top: -10px;
-    left: 35px;
-    color: hsl(215, 51%, 70%) ;
+.creator {
+  position: relative;
+  top: -10px;
+  left: 35px;
+  color: hsl(215, 51%, 70%);
 }
 
-#name
-{
-    position: relative;
-    position: relative;
-    top: -10px;
-    left: 35px;
-  
+#name {
+  position: relative;
+  position: relative;
+  top: -10px;
+  left: 35px;
 }
